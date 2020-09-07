@@ -1,0 +1,7 @@
+version: "1"
+rules:
+- base: develop
+  upstream: boostorg:poly_collection
+  mergeMethod: rebase
+  conflictReviewers:
+  - zaucy
